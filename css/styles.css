@@ -4,7 +4,7 @@
   --title-text-color: #FFFFFF;
   --accent-text-color: #2196F3;
   --paragraph-text-color: #757575;
-  --card-set-gap: 20px;
+  --card-set-gap: 30px;
 }
 /* Скидання стилів заголовка */
 p,
@@ -100,6 +100,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ECECEC;;
 }
 .header-contacts {
   display: flex;
@@ -111,6 +112,8 @@ body {
 .hero {
   display: block;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* Заголовок */
@@ -121,7 +124,6 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 200px;
   margin-bottom: 30px;
 }
 /* Кнопка */
@@ -132,6 +134,7 @@ body {
   background-color: var(--accent-text-color);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
@@ -145,7 +148,9 @@ body {
   margin-top: 94px;
   margin-bottom: 50px;
 }
+
 .button {
+  padding: 6px 22px;
   margin-right: 8px;
   color: var(--primery-text-color);
   background-color: #F5F4FA;
@@ -167,7 +172,7 @@ body {
 /* Відступи центральних секцій */
 .section {
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
 }
 /* Заголовок секції */
 .trans {
@@ -189,7 +194,8 @@ body {
 .benefits {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   
 }
 .benefits .item {
@@ -214,15 +220,20 @@ body {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 
 
 /* Команда */
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team {
   display: flex;
   margin-top: calc( -1 * 30px);
   margin-left: calc( -1 * 30px);
-  margin-bottom: 154px;
+ 
   
 }
 
@@ -295,29 +306,40 @@ line-height: 1.88;
 
 
 /* Футер */
+.footer-main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-logo {
+  display: block;
   color: var(--title-text-color);
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-bottom: 28px;
+  padding-top: 0px;
+  padding-bottom: 28px;
 }
 .footer .footer-adress {
+  display: block;
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
+  padding-bottom: 12px;
 }
 .footer .link {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
+  padding-bottom: 12px;
 }
-.footer .footer-item {
-  margin-bottom: 12px;
+.footer-item {
+  display: block;
+  padding-bottom: 12px;
 }
