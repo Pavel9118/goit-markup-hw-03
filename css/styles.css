@@ -302,7 +302,6 @@ line-height: 1.88;
   margin-top: var(--card-set-gap);
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   background: var(--title-text-color)
-  border: 1px solid #EEEEEE;
 }
 .portfolio-card-content {
   padding: 20px 24px;
