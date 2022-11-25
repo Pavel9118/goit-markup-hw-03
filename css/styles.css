@@ -135,10 +135,11 @@ body {
 /* Кнопка */
 .button-main {
   display: inline-block;
-  margin-bottom: 294px;
   color: var(--title-text-color);
   background-color: var(--accent-text-color);
   cursor: pointer;
+  width: 200px;
+  height: 50px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -151,7 +152,6 @@ body {
 .filter {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -304,9 +304,8 @@ line-height: 1.88;
   flex-wrap: wrap;
   margin-top: calc( -1 * var(--card-set-gap));
   margin-left: calc( -1 * var(--card-set-gap));
-  margin-bottom: 154px;
   background: #FFFFFF;
-  border-bottom: 1px solid #EEEEEE;
+  
 }
 .portfolio .item {
   margin-left: var(--card-set-gap);
@@ -318,8 +317,7 @@ line-height: 1.88;
 }
 .portfolio-card-content {
   padding: 20px 24px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  border: 1px solid #EEEEEE;
 }
 
 
