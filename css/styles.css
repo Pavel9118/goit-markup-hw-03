@@ -297,7 +297,7 @@ line-height: 1.88;
   margin-left: calc( -1 * var(--card-set-gap));
   background: #FFFFFF;
 }
-.portfolio .item {
+.portfolio .portfolio-item {
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
   flex-basis: calc(100% / 3 - var(--card-set-gap));
