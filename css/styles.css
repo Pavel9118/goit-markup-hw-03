@@ -97,10 +97,13 @@ body {
   color: var(--accent-text-color);
 }
 /* Main-nav */
+.header-bord {
+ border-bottom: 1px solid #ECECEC;;
+}
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;;
+ 
 }
 .header-contacts {
   display: flex;
@@ -109,9 +112,12 @@ body {
 .header-phone {
   margin-right: 40px;
 }
+/* Hero */
 .hero {
   display: block;
   text-align: center;
+  }
+.hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -191,11 +197,14 @@ body {
 }
 
 /* Переваги */
+.section-benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .benefits {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  
   
 }
 .benefits .item {
@@ -220,6 +229,9 @@ body {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
+  
+}
+.section-images {
   padding-bottom: 94px;
 }
 
@@ -267,6 +279,10 @@ border-radius: 0px 0px 4px 4px;
 
 
 /* Портфолио */
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio-title {
   display: none;
 }
@@ -302,6 +318,8 @@ line-height: 1.88;
 }
 .portfolio-card-content {
   padding: 20px 24px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -319,7 +337,8 @@ line-height: 1.88;
   line-height: 1.19;
   text-decoration: none;
   padding-top: 0px;
-  padding-bottom: 28px;
+  padding-bottom: 0px;
+  margin-bottom: 28px;
 }
 .footer .footer-adress {
   display: block;
@@ -328,7 +347,7 @@ line-height: 1.88;
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 .footer .link {
   display: block;
@@ -337,9 +356,8 @@ line-height: 1.88;
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 .footer-item {
-  display: block;
-  padding-bottom: 12px;
+  display: block;;
 }
